@@ -117,7 +117,7 @@
                         <configuration>
                             <mainClass>com.shopify.truffleruby.NativeImage</mainClass>
                             <imageName>native-image-playground</imageName>
-                            <buildArgs>--language:js --language:wasm</buildArgs>
+                            <buildArgs>--language:js --language:wasm --native-image-info --verbose</buildArgs>
                         </configuration>
                     </plugin>
                 </plugins>
